@@ -37,8 +37,6 @@ function clean(){
    if(n > 1000000){
      throw "Number out of boundaries";
    }else if(n >= 0){
-    for(var x =0;x<10;x++){
       flip(n)
-    }
   }
 }
